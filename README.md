@@ -13,22 +13,22 @@ The academic article runs their own regression on the Portuguese bank data.
 The definitions of the columns are available in bank-additional-names.txt
 Approach
 
-    Exploratory analysis of the dataset itself, evaluating the types of data available, examining the data types separately.
+Exploratory analysis of the dataset itself, evaluating the types of data available, examining the data types separately.
 
-    Evaluate the distribution of the variables: age, marital status, pdays, consumer price indices etc. using violin plots and histograms.
+Evaluate the distribution of the variables: age, marital status, pdays, consumer price indices etc. using violin plots and histograms.
 
-    Apply dummy variables for the categorical data (job, marital, education, poutcome).
+Apply dummy variables for the categorical data (job, marital, education, poutcome).
 
-    Map boolean data to 1 & 0.
+Map boolean data to 1 & 0.
 
-    Cleanse N/A values.
+Cleanse N/A values.
 
-    Split data into training and test sets.
+Split data into training and test sets.
 
-    Feature impute and scaling
+Feature impute and scaling
 
-    Evaluate a Random Forest model on the dataset, evaluate 10 most important features.
+Evaluate a Random Forest model on the dataset, evaluate 10 most important features.
 
-    Experiment with further machine learning models.
+Experiment with further machine learning models.
 
-    Evaluate data, measuring accuracy.
+Evaluate data, measuring accuracy.
